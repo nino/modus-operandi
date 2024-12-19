@@ -80,7 +80,6 @@
     "inputValidation.errorForeground": "#ff0000",
     "inputValidation.infoForeground": "#0055ff",
     "inputValidation.warningForeground": "#ff8800",
-    "list.activeSelectionIconForeground": "#004488",
     "list.filterMatchBorder": "#004488",
     "list.focusAndSelectionOutline": "#004488",
     "list.focusBackground": "#e0f0ff",
@@ -89,7 +88,8 @@
     "list.inactiveFocusBackground": "#f0f8ff",
     "list.inactiveFocusOutline": "#c0d0e0",
     "list.inactiveSelectionForeground": "#004488",
-    "list.inactiveSelectionIconForeground": "#88aaff",
+    "list.activeSelectionIconForeground": "#FFFFFF",
+    "list.inactiveSelectionIconForeground": "#0055bb",
     "menu.border": "#e0e0e0",
     "menu.selectionBorder": "#004488",
     "menubar.selectionBorder": "#88aaff",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "scope": "entity.name.function",
+      "scope": ["entity.name.function", "support.function.core"],
       "settings": {
         "foreground": "#721045"
       }

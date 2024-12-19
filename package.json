@@ -3,6 +3,10 @@
 	"displayName": "modus_operandi",
 	"description": "Emacs modus operandi",
 	"version": "0.0.1",
+  "publisher": "MihailDolghintev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mihaildolghintev/modus-operandi"},
 	"engines": {
 		"vscode": "^1.96.0"
 	},
