@@ -151,6 +151,11 @@
     "widget.border": "#d0d0d0",
     "window.activeBorder": "#004488",
     "window.inactiveBorder": "#e0e0e0",
+    "debugTokenExpression.name": "#721045",
+    "statusBar.debuggingBackground": "#005e8b",
+    "statusBar.debuggingForeground": "#ffffff",
+    "debugIcon.breakpointForeground": "#721045",
+    "commandCenter.debuggingBackground": "#72104540",
   },
   "tokenColors": [
     {
@@ -193,6 +198,12 @@
       "scope": "entity.name.type",
       "settings": {
         "foreground": "#005e8b"
+      }
+    },
+    {
+      "scope": ["punctuation.definition.variable.ruby", "variable.other.readwrite.instance.ruby"],
+      "settings": {
+        "foreground": "#005E8B"
       }
     },
     {
