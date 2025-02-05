@@ -1,8 +1,8 @@
 # Modus Operandi for VS Code
 
-[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/modus-operandi.svg)](https://marketplace.visualstudio.com/items?itemName=modus-operandi)
-[![Downloads](https://img.shields.io/visual-studio-marketplace/d/modus-operandi.svg)](https://marketplace.visualstudio.com/items?itemName=modus-operandi)
-[![Rating](https://img.shields.io/visual-studio-marketplace/r/modus-operandi.svg)](https://marketplace.visualstudio.com/items?itemName=modus-operandi)
+[![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/MihailDolghintev.modus-operandi.svg)](https://marketplace.visualstudio.com/items?itemName=MihailDolghintev.modus-operandi)
+[![Downloads](https://img.shields.io/visual-studio-marketplace/d/MihailDolghintev.modus-operandi.svg)](https://marketplace.visualstudio.com/items?itemName=MihailDolghintev.modus-operandi)
+[![Rating](https://img.shields.io/visual-studio-marketplace/r/MihailDolghintev.modus-operandi.svg)](https://marketplace.visualstudio.com/items?itemName=MihailDolghintev.modus-operandi)
 
 A carefully crafted light theme for Visual Studio Code, inspired by the renowned [Modus Themes](https://protesilaos.com/emacs/modus-themes) for Emacs. Modus Operandi provides exceptional readability and meets the highest accessibility standards (WCAG AAA).
 
