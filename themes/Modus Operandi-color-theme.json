@@ -13,7 +13,7 @@
     "editor.wordHighlightBackground": "#c0deff80",
     "editor.findMatchBackground": "#f3d000",
     "editor.findMatchHighlightBackground": "#a4d5f980",
-    "editor.lineHighlightBackground": "#dae5ec",
+    "editor.lineHighlightBackground": "#f7fbff",
     "editorWhitespace.foreground": "#e0e0e0",
     "editorIndentGuide.background1": "#e0e0e0",
     "editorIndentGuide.activeBackground1": "#c4c4c4",
@@ -33,8 +33,8 @@
     "contrastBorder": "#e0e0e0",
     "debugToolBar.border": "#d0d0d0",
     "diffEditor.border": "#e0e0e0",
-    "diffEditor.insertedTextBorder": "#b0d0b0",
-    "diffEditor.removedTextBorder": "#d0a0a0",
+    "diffEditor.insertedTextBorder": "#e7f4e7",
+    "diffEditor.removedTextBorder": "#f8e7e7",
     "diffEditorGutter.insertedLineBackground": "#e7f4e7",
     "diffEditorGutter.removedLineBackground": "#f8e7e7",
     "diffEditorOverview.insertedForeground": "#005500",
@@ -55,7 +55,8 @@
     "editor.wordHighlightStrongBorder": "#88aaff",
     "editor.wordHighlightTextBorder": "#a0c8f0",
     "editorError.background": "#ffe8e890",
-    "editorError.border": "#ff5555",
+    "editorError.border": "#FFFFFF00",
+    "editorError.foreground": "#ff5555",
     "editorGhostText.background": "#f0f8ff",
     "editorGhostText.border": "#e0e0e0",
     "editorGroup.dropIntoPromptBorder": "#004488",
@@ -63,9 +64,7 @@
     "editorGroup.focusedEmptyBorder": "#004488",
     "editorGroupHeader.border": "#d0d0d0",
     "editorGroupHeader.tabsBorder": "#e0e0e0",
-    "editorHint.border": "#d0e0f0",
     "editorInfo.background": "#e8f0ff90",
-    "editorInfo.border": "#004488",
     "editorLineNumber.dimmedForeground": "#d0d0d0",
     "editorOverviewRuler.background": "#f8f8f8",
     "editorStickyScroll.border": "#e0e0e0",
@@ -73,7 +72,8 @@
     "editorUnicodeHighlight.background": "#e8f8ff",
     "editorUnnecessaryCode.border": "#c0c0c0",
     "editorWarning.background": "#fff8e890",
-    "editorWarning.border": "#ffaa00",
+    "editorWarning.border": "#FFFFFF00",
+    "editorWarning.foreground": "#ffaa00",
     "editorWidget.resizeBorder": "#004488",
     "gitlens.decorations.branchUnpublishedForegroundColor": "#005500",
     "gitlens.decorations.branchUpToDateForegroundColor": "#888888",
@@ -147,7 +147,6 @@
     "testing.message.info.lineBackground": "#e8f8ff",
     "titleBar.border": "#e0e0e0",
     "toolbar.hoverOutline": "#004488",
-    "welcomePage.background": "#ffffff",
     "widget.border": "#d0d0d0",
     "window.activeBorder": "#004488",
     "window.inactiveBorder": "#e0e0e0",
@@ -156,6 +155,10 @@
     "statusBar.debuggingForeground": "#ffffff",
     "debugIcon.breakpointForeground": "#721045",
     "commandCenter.debuggingBackground": "#72104540",
+    "editorInfo.foreground": "#004488",
+    "editorInfo.border": "#FFFFFF00",
+    "editorHint.foreground": "#888888",
+    "editorHint.border": "#FFFFFF00"
   },
   "tokenColors": [
     {
@@ -167,7 +170,7 @@
     {
       "scope": "string",
       "settings": {
-        "foreground": "#3548cf",
+        "foreground": "#3548cf"
       }
     },
     {
@@ -201,7 +204,10 @@
       }
     },
     {
-      "scope": ["punctuation.definition.variable.ruby", "variable.other.readwrite.instance.ruby"],
+      "scope": [
+        "punctuation.definition.variable.ruby",
+        "variable.other.readwrite.instance.ruby"
+      ],
       "settings": {
         "foreground": "#005E8B"
       }
@@ -215,37 +221,37 @@
     {
       "scope": "invalid",
       "settings": {
-        "foreground": "#000000",
+        "foreground": "#000000"
       }
     },
     {
       "scope": "meta.diff.header",
       "settings": {
-        "foreground": "#2f3f83",
+        "foreground": "#2f3f83"
       }
     },
     {
       "scope": "meta.diff.range",
       "settings": {
-        "foreground": "#ffdfa9",
+        "foreground": "#ffdfa9"
       }
     },
     {
       "scope": "meta.diff.removed",
       "settings": {
-        "foreground": "#8f1313",
+        "foreground": "#8f1313"
       }
     },
     {
       "scope": "meta.diff.added",
       "settings": {
-        "foreground": "#005000",
+        "foreground": "#005000"
       }
     },
     {
       "scope": "meta.diff.changed",
       "settings": {
-        "foreground": "#553d00",
+        "foreground": "#553d00"
       }
     },
     {
