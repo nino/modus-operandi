@@ -15,7 +15,7 @@
     "editor.findMatchHighlightBackground": "#a4d5f980",
     "editor.lineHighlightBackground": "#f7fbff",
     "editorWhitespace.foreground": "#e0e0e0",
-    "editorIndentGuide.background1": "#e0e0e0",
+    "editorIndentGuide.background1": "#00000010",
     "editorIndentGuide.activeBackground1": "#c4c4c4",
     "statusBar.background": "#bdbdbd",
     "statusBar.noFolderBackground": "#bdbdbd",
